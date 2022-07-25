@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=Ibarra+Real+Nova:ital@0;1&family=Raleway&display=swap');
+
+:root {
+    --font-heading: "Ibarra Real Nova", serif;
+    --font-text: "Raleway", sans-serif;
+    --font-accent: "IBM Plex Mono", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-text);
+
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+}
+
+a, li {
+    font-family: var(--font-accent);
+}
