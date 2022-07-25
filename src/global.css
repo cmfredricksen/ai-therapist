@@ -4,6 +4,11 @@
     --font-heading: "Ibarra Real Nova", serif;
     --font-text: "Raleway", sans-serif;
     --font-accent: "IBM Plex Mono", monospace;
+
+    --clr-black: #222;;
+    --clr-white: #ccc;
+    --clr-magenta-lt: #fd6ffd;
+    --clr-denim-lt: #ada3f2;
 }
 
 * {
@@ -14,13 +19,17 @@
 
 body {
     font-family: var(--font-text);
+    background-color: var(--clr-black);
+    color: var(--clr-white)
 
 }
 
 h1, h2, h3 {
     font-family: var(--font-heading);
+    color: var(--clr-magenta-lt);
 }
 
 a, li {
     font-family: var(--font-accent);
+    color: var(--clr-denim-lt);
 }
