@@ -33,3 +33,17 @@ a, li {
     font-family: var(--font-accent);
     color: var(--clr-denim-lt);
 }
+
+img {
+    width: 90%;
+}
+    
+a {
+        text-decoration: none;
+        font-size: 1.4rem;
+    }
+
+a:hover {
+        color: var(--clr-white);
+        text-decoration: underline;
+    }
