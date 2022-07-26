@@ -7,4 +7,7 @@
         padding: 2rem 0;
         text-align: center;
     }
+    p {
+        color: var(--clr-magenta-lt);
+    }
 </style>

@@ -29,6 +29,10 @@ h1, h2, h3 {
     color: var(--clr-magenta-lt);
 }
 
+h2, h3 {
+    color: var(--clr-denim-lt);
+}
+
 a, li {
     font-family: var(--font-accent);
     color: var(--clr-denim-lt);

@@ -6,19 +6,18 @@
 
 
 <div class="wrapper">
-<div class="left-column">
 
-    <Header />
+    <div class="left-column">
+        <Header />
+    </div>
+
+    <div class="right-column">
+        <slot />
+        <Footer />
+    </div>
+
 </div>
-<div class="right-column">
 
-    
-    <slot />
-</div>
-
-</div>
-
-<Footer />
 
 <style>
     .wrapper {
@@ -31,5 +30,9 @@
         padding: 1rem;
         background-color: #111;
         width: 25%;
+    }
+
+    .right-column {
+        width: 75%;
     }
 </style>
