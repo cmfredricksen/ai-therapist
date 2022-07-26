@@ -10,7 +10,8 @@
         },
         {
             title: "Art",
-            path: "/art"
+            path: "https://creator.nightcafe.studio/my-creations?q=published",
+            target: "_blank"
         },
         {
             title: "Contact",
@@ -20,8 +21,8 @@
 </script>
 
 <nav>
-    {#each links as {title, path}}
-        <a href={path}>{title}</a>
+    {#each links as {title, path, target}}
+        <a href={path} target={target}>{title}</a>
     {/each}
 </nav>
 
