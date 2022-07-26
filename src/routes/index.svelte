@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>AI Therapist | Home</title>
+</svelte:head>
+
 <h2>Welcome to AI Therapist!</h2>
 
 <main>
